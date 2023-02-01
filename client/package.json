@@ -12,7 +12,13 @@
     "prettify": "prettier --write",
     "prettify:all": "prettier --write \"./**/*.{js,json}\"",
     "lint": "eslint",
-    "lint:all": "eslint \"**/*.js\""
+    "lint:all": "eslint \"**/*.js\"",
+    "login": "node index.js login",
+    "signup": "node index.js signup",
+    "logout": "node index.js logout",
+    "timer:status": "node index.js status",
+    "timer:start": "node index.js start",
+    "timer:stop": "node index.js stop"
   },
   "engines": {
     "node": ">=12.0.0"

@@ -7,7 +7,7 @@
   "main": "index.js",
   "scripts": {
     "start": "cross-env node index.js",
-    "dev": "cross-env nodemon index.js -e js,njk",
+    "dev": "cross-env nodemon index.js",
     "test": "echo \"Tests passed\" && exit 0",
     "prettify": "prettier --write",
     "prettify:all": "prettier --write \"./**/*.{js,json}\"",
